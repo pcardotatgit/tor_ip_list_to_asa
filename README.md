@@ -97,7 +97,7 @@ You can Have a look to this script at the top and you can change some parameters
 
 Then run the second script 
 
-	python 2-asa_send_cli.py.py
+	python 2-asa_send_cli.py
 
 BUT FIRST  you must edit the **asa_devices_list** and set the device variables
 
@@ -106,3 +106,11 @@ BUT FIRST  you must edit the **asa_devices_list** and set the device variables
 Don't hesitate to merge the 2 scripts in order to trigger firewalls update just after having dowloaded the last TOP IP list.
 
 And a logical thing to do id is to includes these scripts into a web application. I will cover that with python flask in another article.
+
+Improvements to consider :
+
+- Web GUI ( flask , Django )
+- protect ASA credentials with vault
+- logs In 2-asa_send_cli.py 
+- configuration rollback
+- Mutlithreading if the number of ASA is high
