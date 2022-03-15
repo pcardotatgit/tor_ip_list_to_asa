@@ -1,0 +1,5 @@
+object-group network TOR_NET_GROUP
+network-object host 10.10.10.10
+network-object host 20.20.20.20
+network-object host 30.30.30.30
+network-object host 40.40.40.40

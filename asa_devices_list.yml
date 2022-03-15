@@ -1,0 +1,18 @@
+---
+devices:
+  - hostname: ASA-1
+    type:   cisco_asa
+    ipaddr:   192.168.1.1
+    port: 443
+    username: admin1
+    password: password1
+    version: 4
+    config: asa_cli.txt  
+  - hostname: ASA-2
+    type:   cisco_asa 
+    ipaddr:   192.168.2.2
+    port: 443
+    username: admin2
+    password: password2
+    version: 5
+    config: asa_cli-2.txt   
