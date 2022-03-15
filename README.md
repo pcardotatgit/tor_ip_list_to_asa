@@ -101,3 +101,8 @@ Then run the second script
 
 BUT FIRST  you must edit the **asa_devices_list** and set the device variables
 
+## What you can do next
+
+Don't hesitate to merge the 2 scripts in order to trigger firewalls update just after having dowloaded the last TOP IP list.
+
+And a logical thing to do id is to includes these scripts into a web application. I will cover that with python flask in another article.
