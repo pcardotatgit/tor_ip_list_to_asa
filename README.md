@@ -1,4 +1,4 @@
-# TOR IP Blocking List to ASA network object to block
+# TOR IP Blocking List to ASA network objects
 
 The goal of these 2 scripts is to provide with a proof of concept of a ASA firewall update automation from the TOR entry/exit IP addresses list.
 
