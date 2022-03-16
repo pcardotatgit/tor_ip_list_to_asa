@@ -98,7 +98,7 @@ if __name__ == "__main__":
             print()
             print(yellow('============================',bold=True))
             print()
-            print(yellow('Waiting for next poll in 300 seconds ',bold=True))
+            print(yellow(f'Waiting for next poll in {frequency} seconds ',bold=True))
             print(yellow('============================',bold=True))
             print()                
             time.sleep(frequency)
